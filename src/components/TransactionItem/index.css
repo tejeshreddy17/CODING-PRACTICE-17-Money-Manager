@@ -1,0 +1,34 @@
+/* Write your CSS here */
+.transaction-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  border-style: solid;
+  border-left-color: #cbd5e1;
+  border-right-color: #cbd5e1;
+  border-bottom-color: #cbd5e1;
+  border-width: 0.5px;
+  border-top-style: none;
+}
+.icon-style {
+  height: 20px;
+  margin-left: 25px;
+}
+
+.transaction-item-title-style {
+  flex-grow: 1;
+  font-weight: 500;
+}
+.transaction-item-amount-style {
+  flex-grow: 1;
+  font-weight: 500;
+}
+
+.transaction-item-type-delete-icon-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-grow: 1;
+}

@@ -1,0 +1,121 @@
+/* Write your CSS here */
+.mmg-background-card {
+  padding-top: 25px;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-bottom: 25px;
+}
+.name-display-card {
+  background-image: url(https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png);
+  background-size: cover;
+  padding: 25px;
+  width: 100%;
+  border-radius: 15px;
+}
+span {
+  color: #0b69ff;
+  font-weight: bold;
+}
+
+.name-style {
+  color: #475569;
+  margin-bottom: 0px;
+  margin-left: 25px;
+}
+.welcome-style {
+  color: #7e858e;
+  font-weight: 500;
+  margin-left: 25px;
+}
+.bottom-transaction-details-and-input-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.form-card-style {
+  padding: 25px;
+  border-radius: 10px;
+  border-color: #cbd5e1;
+  border-style: solid;
+  border-width: 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-grow: 1.8;
+}
+.add-transaction-heading-style {
+  color: #475569;
+  font-size: 18px;
+}
+.form-sub-heading-style {
+  margin-bottom: 5px;
+  color: #7e858e;
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 10px;
+}
+.input-style {
+  border-radius: 5px;
+  height: 35px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #cbd5e1;
+  padding-left: 5px;
+  color: #1e293b;
+  outline: none;
+  font-weight: 500;
+}
+.option-style {
+  background-color: #7c3aed;
+}
+.button-style {
+  align-self: flex-start;
+  border: none;
+  background-color: #0b69ff;
+  border-radius: 8px;
+  color: white;
+  width: 75px;
+  padding: 10px;
+  margin-top: 15px;
+}
+.transaction-details-card {
+  border-color: #cbd5e1;
+  border-style: solid;
+  border-width: 1px;
+  align-self: stretch;
+  border-radius: 10px;
+  flex-grow: 2;
+  padding: 25px;
+  margin-left: 25px;
+  flex-shrink: 0;
+}
+.transaction-details-header-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  border-style: solid;
+  border-color: #cbd5e1;
+  border-width: 0.5px;
+  padding-left: 15px;
+}
+.transaction-details-header-title-style {
+  font-weight: bold;
+  color: #1e293b;
+  flex-grow: 1;
+}
+.transaction-details-header-amount-style {
+  font-weight: bold;
+  flex-grow: 1;
+}
+.transaction-details-header-type-style {
+  font-weight: bold;
+  flex-grow: 1;
+}
+ul {
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
