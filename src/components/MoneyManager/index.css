@@ -104,18 +104,17 @@ span {
 .transaction-details-header-title-style {
   font-weight: bold;
   color: #1e293b;
-  flex-grow: 1;
+  width: 30%;
 }
 .transaction-details-header-amount-style {
   font-weight: bold;
-  flex-grow: 1;
+  width: 30%;
 }
 .transaction-details-header-type-style {
   font-weight: bold;
-  flex-grow: 1;
+  width: 30%;
 }
 ul {
+  margin: 0px;
   padding-left: 0px;
-  padding-top: 0px;
-  padding-bottom: 0px;
 }
