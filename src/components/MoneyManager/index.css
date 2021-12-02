@@ -100,6 +100,7 @@ span {
   border-color: #cbd5e1;
   border-width: 0.5px;
   padding-left: 15px;
+  flex-shrink: 0;
 }
 .transaction-details-header-title-style {
   font-weight: bold;
@@ -117,4 +118,21 @@ span {
 ul {
   margin: 0px;
   padding-left: 0px;
+}
+@media screen and (max-width: 768px) {
+  .bottom-transaction-details-and-input-card {
+    flex-direction: column;
+  }
+  .form-card-style {
+    width: 100%;
+  }
+  .transaction-details-card {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 15px;
+  }
+  .mmg-background-card {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
