@@ -21,12 +21,16 @@
 
 .transaction-item-title-style {
   width: 30%;
-  font-weight: 500;
+  font-weight: 400;
+  color: #334155;
 }
 .transaction-item-amount-style {
   width: 30%;
-  font-weight: 500;
+  font-weight: 400;
+  color: #334155;
 }
 .transaction-item-type-style {
   width: 30%;
+  font-weight: 400;
+  color: #334155;
 }

@@ -97,14 +97,18 @@ class MoneyManager extends Component {
               value={amount}
               className="input-style"
             />
-            <p className="form-sub-heading-style">TYPE</p>
+            <label htmlFor="select" className="form-sub-heading-style">
+              TYPE
+            </label>
             <select
               onChange={this.onSelectType}
               value={type}
               className="input-style"
             >
-              <option value="INCOME">Income</option>
-              <option value="EXPENSES">Expenses</option>
+              <option value={transactionTypeOptions[0].optionId}>Income</option>
+              <option value={transactionTypeOptions[1].optionId}>
+                Expenses
+              </option>
             </select>
             <button
               className="button-style"

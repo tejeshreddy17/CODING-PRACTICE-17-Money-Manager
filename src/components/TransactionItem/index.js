@@ -15,7 +15,9 @@ const TransactionItem = props => {
       <p className="transaction-item-title-style">{title}</p>
       <p className="transaction-item-amount-style">Rs.{amount}</p>
 
-      <p className="transaction-item-type-style">{type}</p>
+      <p className="transaction-item-type-style">
+        {type.slice(0, 1) + type.slice(1).toLowerCase()}
+      </p>
       <img
         className="icon-style"
         onClick={onclikcingDelete}
